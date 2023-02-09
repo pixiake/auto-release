@@ -1,0 +1,16 @@
+apiVersion: release.kubesphere.io/v1alpha1
+kind: ChangeLog
+metadata:
+  name: v3.3.2
+spec:
+  repos:
+    - name: kubesphere/kubesphere
+      tag: v3.3.2
+      branchs:
+        - master
+    - name: kubesphere/console
+      tag: v3.3.2
+      branchs:
+        - master
+
+
